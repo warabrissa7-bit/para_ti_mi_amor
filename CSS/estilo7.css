@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Georgia', serif;
+}
+body{
+    background:linear-gradient(180deg, #4b1c3d 0%, #60244f 100%);
+    color:white;
+    min-height:100vh;
+    padding:20px;
+    padding-bottom:50px;
+}
+/* 🎀 CABECERA */
+.cabecera{
+    text-align:center;
+    padding:30px 20px;
+    margin-bottom:30px;
+}
+.corazones{
+    font-size:1.5rem;
+    letter-spacing:8px;
+    margin-bottom:10px;
+}
+.cabecera h1{
+    font-size:2.2rem;
+    color:#ffb6c1;
+    margin-bottom:8px;
+}
+.cabecera p{
+    color:#ffd1dc;
+    font-style:italic;
+    font-size:1.1rem;
+}
+.contenedor-sorpresa{
+    max-width:480px;
+    margin:0 auto;
+    background:rgba(255,255,255,0.08);
+    padding:35px;
+    border-radius:20px;
+    border:1px solid rgba(255,182,193,0.2);
+    text-align:center;
+}
+/* 📸 Estilos del carrusel */
+.carousel {
+    margin-bottom: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    padding: 10px;
+}
+.mensaje-final h3{
+    color:#ffc8dd;
+    margin-bottom:15px;
+    font-size:1.4rem;
+}
+.mensaje-final{
+    line-height:1.9;
+    font-size:1.1rem;
+    color:#fce4ec;
+    margin-bottom:30px;
+}
+/* 🧭 Navegación */
+.navegacion{
+    display:flex;
+    justify-content:center;
+    padding-top:20px;
+    border-top:1px solid rgba(255,182,193,0.2);
+}
+.btn-anterior{
+    padding:10px 25px;
+    background:rgba(255,182,193,0.15);
+    color:#ffc8dd;
+    text-decoration:none;
+    border-radius:25px;
+    transition:0.3s ease;
+}
+.btn-anterior:hover{
+    background:rgba(255,182,193,0.3);
+}

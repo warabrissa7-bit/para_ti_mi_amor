@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', serif;
+}
+body{
+    background:linear-gradient(180deg, #0f3d3e 0%, #155253 100%);
+    color:#f2f7f5;
+    min-height:100vh;
+    padding-bottom:40px;
+}
+/* 🎀 CABECERA */
+.cabecera{
+    text-align:center;
+    padding:30px 20px;
+    margin-bottom:30px;
+}
+.cabecera h1{
+    font-size:2.2rem;
+    color:#a8d0b8;
+    margin:8px 0;
+}
+.cabecera p{
+    color:#c8e6d5;
+    font-style:italic;
+}
+.simbolo{
+    font-size:1.5rem;
+}
+.contenedor-versiculos{
+    max-width:520px;
+    margin:0 auto;
+    padding:0 20px;
+}
+.versiculo{
+    background:rgba(255,255,255,0.06);
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:18px;
+    line-height:1.7;
+    border-left:3px solid #7ed3a8;
+}
+h4{
+    color:#9fe2bf;
+    margin-bottom:8px;
+    font-size:1.1rem;
+}
+/* 🧭 Navegación */
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(126, 211, 168, 0.2);
+}
+.btn-anterior, .btn-siguiente {
+    padding: 10px 22px;
+    background: rgba(126, 211, 168, 0.12);
+    color: #a8d0b8;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+.btn-anterior:hover, .btn-siguiente:hover {
+    background: rgba(126, 211, 168, 0.25);
+}

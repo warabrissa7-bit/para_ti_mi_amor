@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+body{
+    background:linear-gradient(180deg, #2c243a 0%, #3b2f4d 100%);
+    color:white;
+    min-height:100vh;
+    padding-bottom:40px;
+}
+/* 🎀 CABECERA */
+.cabecera{
+    text-align:center;
+    padding:30px 20px;
+    margin-bottom:30px;
+}
+.cabecera h1{
+    font-size:1.8rem;
+    color:#ffe082;
+    margin:8px 0;
+}
+.cabecera p{
+    color:#ffe8a6;
+    font-style:italic;
+}
+.decoracion{
+    color:#ffd54f;
+    letter-spacing:8px;
+    margin:5px 0;
+}
+.contenedor-razones{
+    max-width:500px;
+    margin:0 auto;
+    padding:0 20px;
+}
+.tarjeta{
+    background:linear-gradient(90deg, rgba(255,224,130,0.08), rgba(255,224,130,0.04));
+    padding:16px 20px;
+    border-radius:12px;
+    margin-bottom:12px;
+    border-left:3px solid #ffe082;
+    transition:0.2s;
+}
+.tarjeta:hover{
+    background:rgba(255,224,130,0.1);
+}
+/* 🧭 Navegación */
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 224, 130, 0.2);
+}
+.btn-anterior, .btn-siguiente {
+    padding: 10px 22px;
+    background: rgba(255, 224, 130, 0.12);
+    color: #ffe082;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+.btn-anterior:hover, .btn-siguiente:hover {
+    background: rgba(255, 224, 130, 0.25);
+}

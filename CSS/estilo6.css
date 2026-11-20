@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+body{
+    background-color:#1b3b4f;
+    color:white;
+    padding:30px;
+}
+.contenedor-canciones{
+    max-width:520px;
+    margin:0 auto;
+}
+h2{
+    text-align:center;
+    color:#89cff0;
+    margin-bottom:25px;
+    font-size:2rem;
+}
+.cancion{
+    background:rgba(255,255,255,0.1);
+    padding:16px;
+    border-radius:12px;
+    margin-bottom:15px;
+}
+h4{
+    color:#b3e5fc;
+    margin-bottom:6px;
+}
+/* 🧭 Navegación */
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(137, 207, 240, 0.15);
+}
+.btn-anterior, .btn-siguiente {
+    padding: 10px 22px;
+    background: rgba(137, 207, 240, 0.12);
+    color: #89cff0;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+.btn-anterior:hover, .btn-siguiente:hover {
+    background: rgba(137, 207, 240, 0.25);
+}

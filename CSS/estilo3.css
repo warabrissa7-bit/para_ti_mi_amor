@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Georgia', serif;
+}
+body{
+    background-color:#380036;
+    color:#fff4f7;
+    padding:40px 20px;
+}
+.contenedor-carta{
+    max-width:550px;
+    margin:0 auto;
+    background-color:rgba(255,220,230,0.15);
+    padding:35px;
+    border-radius:18px;
+}
+h2{
+    text-align:center;
+    color:#ff9eb5;
+    margin-bottom:25px;
+    font-size:2rem;
+}
+.carta-texto{
+    line-height:1.8;
+    font-size:1.15rem;
+    text-align:justify;
+}
+/* 🧭 Navegación */
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 158, 181, 0.2);
+}
+.btn-anterior, .btn-siguiente {
+    padding: 10px 22px;
+    background: rgba(255, 158, 181, 0.15);
+    color: #ffc8dd;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+.btn-anterior:hover, .btn-siguiente:hover {
+    background: rgba(255, 158, 181, 0.3);
+}
